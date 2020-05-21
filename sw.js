@@ -50,7 +50,7 @@ if(workbox)
 		{url: "/js/push-notif.js", revision: "1"},
 		{url: "/js/workbox.js", revision: "1"},
 		{url: "/js/idb.js", revision: "1"},
-		{url: "/page/home.html", revision: "1"},
+		{url: "/pages/home.html", revision: "1"},
 	])
 
 	workbox.routing.registerRoute(
