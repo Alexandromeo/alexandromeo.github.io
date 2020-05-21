@@ -1,0 +1,80 @@
+@media screen and (max-width: 720px)
+{
+	.title-league
+	{
+		margin-top: 30px !important;
+		height: auto !important;
+	}
+
+	.title-league-favorite
+	{
+		height: 300px !important;
+	}
+}
+
+*
+{
+	font-family: 'Lato';
+}
+
+.title-league
+{
+	margin-top: 20px;
+	height: 300px;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.country-league
+{
+	float: right;
+	margin-top: 170px;
+}
+
+.preload
+{
+	margin-top: 20px;
+}
+
+.football-card
+{
+	padding: 20px 15px 3px 15px;
+}
+
+.football-logo
+{
+	width: 60px;
+}
+
+.football-team
+{
+	font-size: 22px;
+}
+
+.football-rank
+{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.football-status
+{
+	padding: 2px;
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+.football-favorites
+{
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 3px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+
+.football-favorites:hover
+{
+	cursor: pointer;
+	opacity: 0.8;
+}
